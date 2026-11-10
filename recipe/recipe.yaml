@@ -1,5 +1,5 @@
 context:
-  version: "1.0.0"
+  version: "1.1.0"
 
 package:
   name: lemi2seed
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.com/earthscope/public/epic/mt/lemi2seed/-/archive/v${{ version }}/lemi2seed-v${{ version }}.tar.gz
-  sha256: 08964e48527256c5ca0179e92a1d76a683fb28f9886bd3d5a3ebafd94864fa09 
+  sha256: 89ea6b2d05471c8a2f8bfa6cb8f3a1873868c7a21b787604063a62b4644b4d3f
 
 build:
   noarch: python
